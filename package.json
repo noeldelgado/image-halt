@@ -1,0 +1,27 @@
+{
+  "name": "image-halt",
+  "version": "0.0.1",
+  "description": "Preload images with an option to cancel the transfer if needed without stoping",
+  "main": "image-halt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeldelgado/image-halt.git"
+  },
+  "keywords": [
+    "image",
+    "load",
+    "halt",
+    "cancel",
+    "preload",
+    "browser"
+  ],
+  "author": "Noel Delgado <auhcsei@gmail.com> (http://pixelia.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noeldelgado/image-halt/issues"
+  },
+  "homepage": "https://github.com/noeldelgado/image-halt#readme"
+}
