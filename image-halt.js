@@ -1,6 +1,6 @@
 /**
  * image-halt v0.0.1
- * http://noeldelgado.github.io/image-halt/
+ * https://github.com/noeldelgado/image-halt
  * License MIT
  */
 (function(factory) {
