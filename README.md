@@ -22,24 +22,24 @@ var paths = ['a.jpg', 'b.png', 'c.gif'];
 var images = [];
 
 function handleImageLoad(err, image) {
-	if (err) { // handle the error
-		return;
-	}
-	
-	document.body.appendChild(image);
+  if (err) { // handle the error
+    return;
+  }
+
+  document.body.appendChild(image);
 }
 
-// register 
+// register
 paths.forEach(function(path) {
-	images.push( new ImageHalt(path, handleImageLoad).load() );
+  images.push(new ImageHalt(path, handleImageLoad).load());
 });
 
 // ...
-// later on we cancel them
+// later on we cancel them if not loaded yet
 images.forEach(function(image) {
-	if (image.isLoaded() === false) {
-		image.abort();
-	}
+  if (!image.isLoaded()) {
+    image.abort();
+  }
 });
 ```
 
